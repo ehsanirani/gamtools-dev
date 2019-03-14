@@ -41,7 +41,7 @@ from . import segregation, matrix
 from .utils import format_genomic_distance
 
 
-class InvalidDataError(Exception):
+class InvalidDataError(Exception:
     """
     Exception raised if segregation data contains anything other than 0s and 1s.
     """
